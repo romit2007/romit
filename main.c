@@ -2,23 +2,16 @@
 #include<conio.h>
 void main()
 {
-    int R;
-   
-    printf("Enter age");
-    scanf("%d",&R);
+    int marks = 55;
     
-    if(R>=18)
+    if(marks>35)
     {
-        printf("\n Eligibale for vote");
+       printf("Pass"); 
     }
     else
     {
-        printf("\n don't Eligibale for vote");
-    
+       printf("Fail"); 
     }
     
     getch();
 }
-    
-    
-    
