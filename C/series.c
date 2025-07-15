@@ -1,19 +1,20 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
-    int i,num,First=0,Second=1,next;
+    int i,num,first=1,second=2,next;
     
     printf("Enter number: ");
     scanf("%d",&num);
     
-    printf("\n fibbonaci series");
+    printf("Fibbonaci series");
     
     for(i=0;i<=num;i++)
     {
-         printf( "\n %d",First);
-        next=First+Second;
-        First=Second;
-        Second=next;
+        printf("%d",first);
+        next=first+second;
+        first=second;
+        second=next;
     }
+    
 }
