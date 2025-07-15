@@ -2,23 +2,36 @@
 #include<conio.h>
 void main()
 {
-    int marks[5];
-    int i,j;
+    float marks;
     
-    for(i=0;i<5;i++)
+    printf("Enter marks");
+    scanf("%f",&marks);
+    
+    if(marks>=90)
     {
-        printf("\n Enter marks");
-        scanf("%d",&marks[i]);
+        printf("A");
     }
-    
-    for(i=0;i<5;i++)
+    else if(marks>=80)
     {
-        printf("\n Marks are %d",marks[i]);
+        printf("B");
     }
-    
-    
+    else if(marks>=70)
+    {
+        printf("C");
+    }
+    else if(marks>=50)
+    {
+        printf("D");
+    }
+    else if(marks>=40)
+    {
+        printf("E");
+    }
+    else
+    {
+        printf("Fail");
+    }
     
     
     getch();
 }
-    
