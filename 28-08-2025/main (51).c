@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-// Function to check if a number is prime
+
 int isPrime(int num) {
     if (num <= 1)
         return 0;
@@ -12,7 +12,7 @@ int isPrime(int num) {
     return 1;
 }
 
-// Function to count digits
+
 int countDigits(int num) {
     int count = 0;
     while (num != 0) {
@@ -22,7 +22,6 @@ int countDigits(int num) {
     return count;
 }
 
-// Function to check if a number is an Armstrong number
 int isArmstrong(int num) {
     int originalNum = num;
     int remainder, result = 0;
@@ -59,3 +58,4 @@ int main()
 
     return 0;
 }
+
